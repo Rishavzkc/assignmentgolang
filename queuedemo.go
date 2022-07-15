@@ -27,7 +27,7 @@ func (q *queue) addelement(i string) {
 
 //Remove element
 func (q *queue) removeelement() string {
-	x := q.names[0]
-	q.names = q.names[1:]
+	x := q.names[0]       //to remove 1st index value
+	q.names = q.names[1:] //here we are skipping index 0 and start from 1
 	return x
 }

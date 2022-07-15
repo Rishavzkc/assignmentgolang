@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Println("Printing original map")
 	fmt.Println(names)
-
+	//delete
 	delete(names, "Ram") //delete one element
 
 	fmt.Println("After Deleting one element ")
