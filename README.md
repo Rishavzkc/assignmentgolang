@@ -1,2 +1,2 @@
 # assignmentgolang
-Training Assignment for go lang
+Practice Assignment for go lang
